@@ -1,0 +1,64 @@
+// build CLI using cobra
+// CLI will be supported by REST calls to controller's REST service
+// For now this will be the only interface via commands/any ops can be made
+// Need to go hand in hand with controller
+
+
+Controller - thread  [ basically the decision maker and issuer of OPs to respective Agent ]
+  e.g
+  Input -
+  command - launch
+    template options
+    number of flxc
+    affinity ?
+
+  Distribute flxc based on weight
+    For now this will be a hack. Later decision will be made based on resource availability
+    Allcate them at one shot
+
+  Issue create calls to each node with count
+    Set resource limits
+
+  Get ack from agent
+    update local db periodically
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 1529  go get -v github.com/spf13/cobra/cobra
+ 1531  ps ax | grep cobra
+ 1534  cobra add create
+ 1557  cobra
+ 1575  cobra
+ 1584  cobra add create
+ 1719  cd cobra/
+ 1721  cd cobra/
+ 1729  vi cobra.go
+ 1730  cd cobra/
+ 1736  cd cobra/
+ 1740  go build -o cobra main.go
+ 1742  ./cobra
+ 1743  ./cobra add flashc
+ 1750  ./cobra
+ 1751  ./cobra  -h
+ 1755  cd cobra/
+ 1762  cp cobra /usr/local/bin/
+ 1763  sudo cp cobra /usr/local/bin/
+ 1764  cobra
+ 1774  cobra init flashtest
+ 1784  cobra add create
+ 1788  cobra add version
+ 1803  cobra add launch
+ 1990  history | grep cobra

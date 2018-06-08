@@ -1,0 +1,56 @@
+{
+	"ImportPath": "github.com/bharad1988/flashc",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v74",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/gorilla/context",
+			"Comment": "v1.1-4-gaed02d1",
+			"Rev": "aed02d124ae4a0e94fea4541c8effd05bf0c8296"
+		},
+		{
+			"ImportPath": "github.com/gorilla/mux",
+			"Comment": "v1.1-13-g9fa818a",
+			"Rev": "9fa818a44c2bf1396a17f9d5a3c0f6dd39d2ff8e"
+		},
+		{
+			"ImportPath": "github.com/inconshreveable/mousetrap",
+			"Rev": "76626ae9c91c4f2a10f34cad8ce83ea42c93bb75"
+		},
+		{
+			"ImportPath": "github.com/spf13/cobra",
+			"Rev": "b24564e919247d7c870fe0ed3738c98d8741aca4"
+		},
+		{
+			"ImportPath": "github.com/spf13/pflag",
+			"Rev": "367864438f1b1a3c7db4da06a2f55b144e6784e0"
+		},
+		{
+			"ImportPath": "gopkg.in/lxc/go-lxc.v2",
+			"Rev": "5e8be8b35eee531ff7772b0fc3114e7c452b49e4"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2",
+			"Comment": "r2016.02.04-3-g29cc868",
+			"Rev": "29cc868a5ca65f401ff318143f9408d02f4799cc"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2/bson",
+			"Comment": "r2016.02.04-3-g29cc868",
+			"Rev": "29cc868a5ca65f401ff318143f9408d02f4799cc"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2/internal/sasl",
+			"Comment": "r2016.02.04-3-g29cc868",
+			"Rev": "29cc868a5ca65f401ff318143f9408d02f4799cc"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2/internal/scram",
+			"Comment": "r2016.02.04-3-g29cc868",
+			"Rev": "29cc868a5ca65f401ff318143f9408d02f4799cc"
+		}
+	]
+}

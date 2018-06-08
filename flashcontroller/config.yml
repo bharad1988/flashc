@@ -1,0 +1,10 @@
+container:
+  lxcpath:    /home/ajay/containers
+  template:   download
+  distro:     ubuntu
+  release:    precise
+  arch:       amd64
+  name:       cont12
+  verbose:    true
+  flush:      false
+  validation: false
