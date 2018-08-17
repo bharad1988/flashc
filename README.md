@@ -10,8 +10,9 @@ The container engine relies on btrfs to provide with snapshots.
 
 
 ## Command line interface 
+
+##### flashc main command set
 ```
-  
 flashc
 	This is a command line REST client to communicate with controller
 	This command is used to manage the flashc cluster with cli tools
@@ -30,8 +31,11 @@ Flags:
   -h, --help                    help for flashc
 
 Use "flashc [command] --help" for more information about a command.
+```
 
-
+##### flashc agent command set
+```
+flashc agent -h
 Gets the status from Agents. Status of the agents are maintained in database.
 	On running the command, the information is fetched from DB
 
@@ -60,9 +64,10 @@ flashc  agent register -a 127.0.0.1
 http://127.0.0.1:8989/agent/register
 127.0.0.1
 flashagent already registered
+```
 
-
-
+##### flashc container command set
+```
 flashc container -h
 A longer description that spans multiple lines and likely contains examples
 and usage of using the command. For example:
