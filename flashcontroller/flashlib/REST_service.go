@@ -31,19 +31,7 @@ func muxRouter(r *mux.Router) {
 	r.HandleFunc("/container/snapshot/list", SnapList).Methods("POST")
 	r.HandleFunc("/container/snapshot/destroy", SnapDestroy).Methods("POST")
 
-	//r.HandleFunc("/image/build", ImageBuild).Methods("POST")
-	//r.HandleFunc("/image/list", ImageList).Methods("POST")
-	r.PathPrefix("/").Handler(http.FileServer(http.Dir("/home/ajay/experiment/web-stuff/")))
-	//r.PathPrefix("/").Handler(http.FileServer(http.Dir("/home/ajay/angular2-seed/angular2-seed/")))
-
-	/*
-		r.PathPrefix("/pages/").Handler(http.FileServer(http.Dir("/home/ajay/web-adminpanel/dist/dev/pages/")))
-		r.PathPrefix("/assets/").Handler(http.FileServer(http.Dir("/home/ajay/web-adminpanel/dist/dev/assets/")))
-		r.PathPrefix("/fonts/").Handler(http.FileServer(http.Dir("/home/ajay/web-adminpanel/dist/dev/fonts/")))
-		r.PathPrefix("/layouts/").Handler(http.FileServer(http.Dir("/home/ajay/web-adminpanel/dist/dev/layouts/")))
-		r.PathPrefix("/shared/").Handler(http.FileServer(http.Dir("/home/ajay/web-adminpanel/dist/dev/shared/")))
-		r.PathPrefix("/css/").Handler(http.FileServer(http.Dir("/home/ajay/web-adminpanel/dist/dev/css/")))
-	*/
+	r.PathPrefix("/").Handler(http.FileServer(http.Dir("/home/user/experiment/web-stuff/")))
 }
 
 // StartRESTServer starts the REST service

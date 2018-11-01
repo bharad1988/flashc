@@ -128,7 +128,7 @@ func GetImage(repoRoot string, repoImage *common.ConImage) error {
 // GetRepoPath gives the path for repository root
 func GetRepoPath() (string, error) {
 	var repos common.RepoService
-	jsonData, err := ioutil.ReadFile("/home/ajay/repos.json")
+	jsonData, err := ioutil.ReadFile("/home/user/repos.json")
 	if err != nil {
 		log.Println(err)
 		return "", err

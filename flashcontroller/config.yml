@@ -1,5 +1,5 @@
 container:
-  lxcpath:    /home/ajay/containers
+  lxcpath:    /home/user/containers
   template:   download
   distro:     ubuntu
   release:    precise
